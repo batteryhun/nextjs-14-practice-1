@@ -1,6 +1,6 @@
 import { error } from "console";
-import { API_URL } from "../(home)/page";
 import styles from "../styles/movie-video.module.css";
+import { API_URL } from "../constants";
 async function getVideo(id: string) {
   const json = await (await fetch(`${API_URL}/${id}/videos`)).json();
   return json;
