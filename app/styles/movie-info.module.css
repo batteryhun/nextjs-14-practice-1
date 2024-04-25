@@ -24,3 +24,8 @@
   margin-top: 20px;
   gap: 20px;
 }
+
+.credit {
+  display: flex;
+  gap: 20px;
+}
